@@ -17,5 +17,5 @@ bot.onText(/\/低能/, function onLoveText(msg) {
   });
 
   bot.onText(/\/hi/, function onLoveText(msg) {
-    bot.sendMessage(msg.chat.id, '又活着呢');
+    bot.sendMessage(msg.chat.id, '活着呢');
   });
