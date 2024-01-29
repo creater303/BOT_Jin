@@ -1,3 +1,8 @@
+/*这是个低能的要死的玩意，就跟主播一样，轻点喷
+   仅供整活
+   另外关注金姐姐谢谢喵
+   https://space.bilibili.com/347749644/?spm_id_from=333.999.0.0
+*/
 const TeleBot = require('telebot');
 
 const bot = new TeleBot({
@@ -26,3 +31,13 @@ const bot = new TeleBot({
         // }
     }
 });
+//来自Mrs.Jin的问候
+bot.on('/hello', (msg) => {
+    return bot.sendMessage(msg.from.id, `hello, ${ msg.from.first_name }!l'm still alive now ,what can l help you`);
+  });
+  //关注主播谢谢喵
+bot.on('/sub', (msg) => {
+    return bot.sendMessage(msg.from.id, '关注主播谢谢喵 https://space.bilibili.com/347749644/?spm_id_from=333.999.0.0');
+
+});
+//推广一下觅镜 FindMirror
