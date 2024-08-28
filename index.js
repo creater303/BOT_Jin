@@ -43,3 +43,5 @@ bot.on('/sub', (msg) => {
 bot.on('/mirror', (msg) => {
     return bot.sendMessage(msg.from.id, '关注主播谢谢喵 https://space.bilibili.com/347749644/?spm_id_from=333.999.0.0');
 //推广一下觅镜 FindMirror
+bot.on('/mirror', (msg) => {
+    return bot.sendMessage(msg.from.id, '快去用mirrorX吧，憋惦记这b玩意了');
